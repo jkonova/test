@@ -1,0 +1,16 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 500px;
+  height: 100vh;
+  margin: auto;
+}
+
+.form_item--custom, .ant-form-item-has-error {
+  margin-bottom: 50px !important;
+
+  & > div:last-child > div:last-child {
+    position: absolute;
+  }
+}
